@@ -1,0 +1,11 @@
+pimcore_install:
+    parameters:
+        database_credentials:
+            user:                 root
+            password:             root
+            dbname:               exeko
+            
+            # env variables can be directly read with the %env() syntax
+            # see https://symfony.com/blog/new-in-symfony-3-2-runtime-environment-variables
+            host:                 127.0.0.1
+            port:                 8889
